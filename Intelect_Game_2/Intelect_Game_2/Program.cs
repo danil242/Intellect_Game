@@ -653,7 +653,7 @@ namespace Intelect_game
                 Console.WriteLine("№3");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Имеются цифры 1, 2, 3, 4, 5 и пять знаков плюс. Нужно уравнять: 1 2 3 4 5 = 5 4 3 2 1. Порядок цифр изменять нельзя(ответ записать без пробелов).");
-                for (int tryes = 3; tryes >= 0; tryes--)
+                for(int tryes=3; tryes>=0; tryes--)
                 {
                     Console.Write("Ответ: ");
                     answer_3 = Convert.ToString(Console.ReadLine());
@@ -679,7 +679,7 @@ namespace Intelect_game
                         Console.WriteLine("Правильный ответ: 12+3+45=54+3+2+1");
                         break;
                     }
-                    break;
+                    
                 }                                
             }
         }
