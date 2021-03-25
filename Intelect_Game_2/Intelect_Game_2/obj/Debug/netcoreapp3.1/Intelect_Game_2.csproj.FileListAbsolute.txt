@@ -1,0 +1,13 @@
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\bin\Debug\netcoreapp3.1\Intelect_Game_2.exe
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\bin\Debug\netcoreapp3.1\Intelect_Game_2.deps.json
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\bin\Debug\netcoreapp3.1\Intelect_Game_2.runtimeconfig.json
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\bin\Debug\netcoreapp3.1\Intelect_Game_2.runtimeconfig.dev.json
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\bin\Debug\netcoreapp3.1\Intelect_Game_2.dll
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\bin\Debug\netcoreapp3.1\Intelect_Game_2.pdb
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.csprojAssemblyReference.cache
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.AssemblyInfoInputs.cache
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.AssemblyInfo.cs
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.csproj.CoreCompileInputs.cache
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.dll
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.pdb
+D:\Desktop\c#\Intelect_Game_2\Intelect_Game_2\obj\Debug\netcoreapp3.1\Intelect_Game_2.genruntimeconfig.cache
