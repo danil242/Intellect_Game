@@ -557,7 +557,7 @@ namespace Intelect_game
                         Console.WriteLine("Срочно займитесь своим словарным запасом и логикой!");
                         Console.ForegroundColor = ConsoleColor.White;
                     }
-                    for (; ; )
+                    for ( ; ; )
                     {
                         Console.WriteLine("Хотите выполнить логические задачи? Y - да, N - нет");
                         cont = Convert.ToString(Console.ReadLine());
@@ -575,8 +575,9 @@ namespace Intelect_game
             }
             if (choose == 2)
             {
-                Logic_Tasks(answer_1, answer_2, answer_3, points, max_points);
+                Logic_Tasks(answer_1, answer_2, answer_3, points, max_points);                
             }
+            
             static void Logic_Tasks(int answer_1 = 0, int answer_2 = 0,  string answer_3 = " ", int points = 0, int max_points = 3)
             {                
                 Console.ForegroundColor = ConsoleColor.Cyan;
@@ -678,9 +679,22 @@ namespace Intelect_game
                         Console.WriteLine("Вы ничего не заработали!");
                         Console.WriteLine("Правильный ответ: 12+3+45=54+3+2+1");
                         break;
-                    }
+                    }                   
+                }
+                Console.WriteLine("ВЫ заработали " + points + " из " + max_points + " возможных.");
+                if(points == max_points)
+                {
+                    Console.WriteLine("Идеальный результат!");
                     
-                }                                
+                }
+                if (points == 2)
+                {
+                    Console.WriteLine("Вы неплохо справились!");
+                }
+                if(points==1 || points == 0)
+                {
+                    Console.WriteLine("Вам стоит больше практиковать логические задачи.");                   
+                }
             }
         }
     }
