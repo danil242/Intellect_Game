@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\c#\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj": {}
+    "D:\\Documents\\GitHub\\Intellect_Game\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\c#\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj": {
+    "D:\\Documents\\GitHub\\Intellect_Game\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\c#\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\Intellect_Game\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj",
         "projectName": "Intelect_Game_2",
-        "projectPath": "D:\\Desktop\\c#\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\Intellect_Game\\Intelect_Game_2\\Intelect_Game_2\\Intelect_Game_2.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\c#\\Intelect_Game_2\\Intelect_Game_2\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\Intellect_Game\\Intelect_Game_2\\Intelect_Game_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

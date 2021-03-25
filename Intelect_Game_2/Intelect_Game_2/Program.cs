@@ -569,16 +569,15 @@ namespace Intelect_game
                         else
                         {
                             break;
-
                         }
                     }
                 }
             }
             if (choose == 2)
             {
-                Logic_Tasks(answer_1, answer_2, answer_3);
+                Logic_Tasks(answer_1, answer_2, answer_3, points, max_points);
             }
-            static void Logic_Tasks(int answer_1 = 0, int answer_2 = 0,  string answer_3 = " ")
+            static void Logic_Tasks(int answer_1 = 0, int answer_2 = 0,  string answer_3 = " ", int points = 0, int max_points = 3)
             {                
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Логические задачи");
@@ -597,6 +596,8 @@ namespace Intelect_game
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Верно!");
                         Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Вы заработали одно очко!");
+                        points += 1;
                         break;
                     }
                     else
@@ -608,6 +609,7 @@ namespace Intelect_game
                     }
                     if (tryes == 0)
                     {
+                        Console.WriteLine("Вы ничего не заработали!");
                         Console.WriteLine("Правильный ответ: 6 боковых граней и 2 грани с торцов.");
                     }
                 }
@@ -629,6 +631,8 @@ namespace Intelect_game
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Верно!");
                         Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Вы заработали одно очко!");
+                        points += 1;
                         break;
                     }
                     else
@@ -640,6 +644,7 @@ namespace Intelect_game
                     }
                     if (tryes == 0)
                     {
+                        Console.WriteLine("Вы ничего не заработали!");
                         Console.WriteLine("Правильный ответ: 18. Числа нижнего ряда - квадраты чисел верхнего ряда с перестановкой цифр.");
                     }
                 }
@@ -657,6 +662,8 @@ namespace Intelect_game
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Верно!");
                         Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Вы заработали одно очко!");
+                        points += 1;
                         break;
                     }
                     else
@@ -668,8 +675,11 @@ namespace Intelect_game
                     }
                     if (tryes == 0)
                     {
+                        Console.WriteLine("Вы ничего не заработали!");
                         Console.WriteLine("Правильный ответ: 12+3+45=54+3+2+1");
+                        break;
                     }
+                    break;
                 }                                
             }
         }
