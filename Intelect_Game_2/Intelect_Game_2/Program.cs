@@ -557,19 +557,17 @@ namespace Intelect_game
                         Console.WriteLine("Срочно займитесь своим словарным запасом и логикой!");
                         Console.ForegroundColor = ConsoleColor.White;
                     }
-                    for ( ; ; )
+                    Console.WriteLine("Хотите выполнить логические задачи? Y - да, N - нет");
+                    
+                    cont = Convert.ToString(Console.ReadLine());
+                    if (cont != "N" && cont != "n")
                     {
-                        Console.WriteLine("Хотите выполнить логические задачи? Y - да, N - нет");
-                        cont = Convert.ToString(Console.ReadLine());
-                        if (cont != "N" && cont != "n")
-                        {
-                            Logic_Tasks(answer_1, answer_2, answer_3);
-                            Console.WriteLine();
-                        }
-                        else
-                        {
-                            break;
-                        }
+                        Logic_Tasks(answer_1, answer_2, answer_3);
+                        Console.WriteLine();
+                    }
+                    else
+                    {
+                        Console.ReadKey();
                     }
                 }
             }
@@ -580,6 +578,7 @@ namespace Intelect_game
             
             static void Logic_Tasks(int answer_1 = 0, int answer_2 = 0,  string answer_3 = " ", int points = 0, int max_points = 3)
             {                
+                int choose; // для записи выбора пользователя
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("Логические задачи");
                 Console.ForegroundColor = ConsoleColor.White;
@@ -693,8 +692,19 @@ namespace Intelect_game
                 }
                 if(points==1 || points == 0)
                 {
-                    Console.WriteLine("Вам стоит больше практиковать логические задачи.");                   
+                    Console.WriteLine("Вам стоит больше практиковать логические задачи.");                    
                 }
+                Console.WriteLine("Хоите начать сначала? Да - 1, Нет - 2");
+                choose = Convert.ToInt32(Console.ReadLine());
+                if(choose == 1)
+                {
+                    Main();
+                }
+                if (choose == 2)
+                {
+                    Console.ReadKey();
+                }
+                
             }
         }
     }
